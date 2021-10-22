@@ -64,6 +64,9 @@ body p{
 .content_container{
     justify-content: space-around;
 }
+.content_container p{
+    font-family: none;
+}
 .content_container h1{
     text-transform: uppercase;
     font-weight: 500;
@@ -185,7 +188,7 @@ body p{
     padding-bottom: 20px;
     color: #333;
     font-style: italic;
-    opacity: 0.6;
+    opacity: 0.8;
 }
 .standards_child{
     display: flex;
@@ -204,7 +207,7 @@ body p{
 }
 .principles p{
     color: #333;
-    opacity: 0.6;
+    opacity: 0.8;
     font-style: italic;
     padding-bottom: 30px;
 }
@@ -281,6 +284,9 @@ body p{
     }
     .list-icon li a i {
         line-height: 46px; 
+    }
+    .testimonials{
+        margin-top: 50px;
     }
 
 }
