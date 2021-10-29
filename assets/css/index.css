@@ -4,7 +4,8 @@
     box-sizing: border-box;
 }
 
-/* css menu */
+/*start:  css menu */
+
 .res-name a, .list-menu a {
     color: #fff;
     text-decoration: none;
@@ -14,7 +15,7 @@
     display: flex;
     padding-top: 53px;
     padding-bottom: 53px;
-    background: rgba(39, 39, 39, 0.48);
+    background: rgba(39, 39, 39, 0.2);
     justify-content: space-around;
 }
   
@@ -153,3 +154,343 @@
       font-size: 14px; 
     }
 }
+/*end:  css menu */
+/*start: banner*/
+body{
+  font-family: 'Merienda';font-size: 15px;
+}
+.nav-item{
+ padding-right: 12px;
+ padding-left: 12px;
+}
+.flag{
+ max-height: 20px;
+ max-width: 20px;
+ margin-top: 10px;
+}
+.nav-link.active{
+ background-color: lightgrey !important;
+}
+
+.reserve-container{
+ position: relative;
+}
+.card-body{
+ -webkit-transition: all 1s ease; /* Safari and Chrome */
+   -moz-transition: all 1s ease; /* Firefox */
+   -o-transition: all 1s ease; /* IE 9 */
+   -ms-transition: all 1s ease; /* Opera */
+   transition: all 1s ease;
+}
+.card-body:hover{
+ -webkit-transform: scale(1.05);
+ -moz-transform: scale(1.05);
+ -o-transform: scale(1.05);
+ -ms-transform: scale(1.05);
+ transform: scale(1.05);
+}
+
+.reserve-text{
+   position: absolute;
+   top: 40%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
+
+.image-reserve{
+ opacity: 0.4;
+ max-height: 750px;
+}
+
+.carousel-caption{
+ top: 40%;
+}
+
+.img-slider{
+ min-height: 320px;
+}
+
+.navMenu{
+ padding-top: 75px;
+ padding-bottom: 20px;
+}
+
+.card-img-top{
+ height: 200px;
+}
+
+.map{
+ height: 320px;
+}
+
+@media screen and (max-width : 1920px){
+ .only-mobile{
+ visibility:hidden;
+ }
+}
+
+@media screen and (max-width : 506px){
+
+.only-mobile{
+ visibility:visible;
+ }
+}
+/*end: banner*/
+/* start: welcome*/
+.container_welcome {
+  margin-top: 60px;
+  text-align: center;
+}
+/* end: welcome*/
+/*start: body2 */
+.featured_menu .feat_content {
+  text-align: center;
+  color: white;
+}
+
+.featured_menu{
+  background-attachment: fixed;
+  margin-top: 20px;
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../../assets/img/1.jpg); 
+  background-size: cover;
+  display: flex;
+  background-position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  min-height: 500px;
+  /* box-shadow: inset 2000px 0 0 0 rgba(0, 0, 0, 0.5); */
+}
+.feat_container{
+  margin: auto;
+}
+.feat_content{
+  text-align: center;
+  padding: 120px 30px 200px 30px;
+}
+.feat_content h1 {
+  color: var(--white-color);
+  font-size: 50px;
+  font-weight: 700;
+
+}
+.feat_content h4{
+  margin-top: 25px;
+  color: var(--white-color);
+  font-size: 25px;
+  font-weight: 600;
+}
+.feat_content p{
+  margin-top: 30px;
+  color: var(--white-color);
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.cate_container{
+  justify-content: space-around;
+  margin-top: -10%;
+}
+.col img{
+  width: 100%;
+  
+}
+
+.cate_img{
+  position: relative;
+}
+.cate_img img{
+
+  width: 100%;
+}
+.col{
+  margin-bottom: 40px;
+}
+.cate_img h2{
+  position: absolute;
+  top: 45%;
+  text-align: center;
+  width: 100%;
+  color: #fff;
+}
+
+.cate_view{
+  background-color: black;
+  padding: 25px 20px;
+  text-align: right;
+}
+
+.cate_view a{
+  text-decoration: none;
+  color: #fff;
+  transition: 0.3s all ease;
+  font-weight: 800;
+  font-size: 18px;
+}
+/* .cate_btn::before {
+  font-family: "Font Awesome 5 Free"; 
+  font-weight: 900; 
+  content: "\f0a9";
+  float: right;
+  padding-left: 9px;
+  position: relative;
+  transition: 0.3s all ease;
+  left: 0;
+} */
+
+.events{
+  margin-bottom: 100px;
+  padding-top: 30px;
+  display: flex;
+}
+.event_new{
+  flex-basis: 25%;
+}
+.event_new h1{
+  font-size: 35px;
+  color: var(--orange-color);
+  font-weight: 800;
+}
+.event_day{
+  margin-top: 20px;
+}
+.event_day h2{
+  font-size: 25px;
+  color: var(--orange-color);
+  font-weight: 700;
+}
+.event_title{
+  margin-top: 15px;
+}
+.event_title h4{
+  color: #333;
+  font-size: 15px;
+  font-weight: bold;
+}
+.event_title h4:hover {
+  color: var(--orange-color);
+  cursor: pointer;
+}
+.event_content{
+  margin-top: 10px;
+}
+.event_content p{
+  color: #333;
+  font-style: italic;
+}
+.event_btn{
+  display: inline-block;
+  padding: 15px 20px;
+  border: 1px rgb(172, 172, 172) solid;
+  margin-top: 50px;
+  cursor: pointer;
+}
+.event_btn a{
+  text-decoration: none;
+  font-weight: 600;
+  color: #333;
+}
+
+
+@media (max-width: 739px){
+  .cate_container{
+      padding-left: 18px;
+      padding-right: 18px;
+  }
+  .events{
+      display: block;
+  }
+  .event_new{
+      text-align: center;
+  }
+  .event_conbtn, .event_content, .event_title, .event_day{
+      text-align: center;
+  }
+}
+
+@media (min-width: 976px) and (max-width: 1023px){
+  .categories .wide{
+      width: 860px;
+  }
+
+}
+@media (min-width: 740px) and (max-width: 976px){
+  .events{
+      display: block;
+  }
+  .event_new{
+      width: 644px;
+      margin: 0 auto;
+      text-align: left;
+  }
+  .event_new h1{
+      color: #333;
+  }
+  
+}
+@media (min-width: 1024px) and (max-width: 1239px) {
+  .events{
+      display: block;
+  }
+  .event_new{
+      width: 984px;
+      margin: 0 auto;
+      text-align: left;
+  }
+  .event_new h1{
+      color: #333;
+  }
+}
+@media (min-width: 1240px){
+  .events{
+      margin-left: auto;
+      margin-right: auto;
+      width: 1200px;
+  }
+  .event_new h1{
+      margin-left: 25px;
+      margin-top: 20px;
+  }
+}
+.cate_img:after {
+  content: '\A';
+  position: absolute;
+  width: 100%; height:100%;
+  top:0; left:0;
+  background:rgba(0,0,0,0.4);
+  opacity: 0;
+  transition: all 0.2s;
+  -webkit-transition: all 1s;
+}
+.cate_img:hover:after{
+  opacity: 1;
+}
+
+.event_btn:hover{
+  background-color: var(--orange-color);
+  transition: all 0.2s ease-in;
+  border-color: var(--orange-color);
+}
+
+.event_btn:hover a{
+  color: #fff;
+  transition: all 0.2s ease-in;
+  
+}
+.event_btn:hover{
+  background-color:#F4412A ;
+  transition: all 0.2s ease-in;
+}
+.cate_btn:hover {
+  color: var(--orange-color);   
+  font-weight: 500;
+}
+.cate_btn:hover::before {
+  color: var(--orange-color);   
+  left: 3px;
+}
+.cate{
+  margin-bottom: 100px;
+}
+/*end: body2*/
