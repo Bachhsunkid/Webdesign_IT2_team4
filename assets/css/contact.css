@@ -392,7 +392,8 @@ a {
       .list-menu li:hover a {
         text-decoration: none; }
   .list-menu a {
-    font-size: 14px; }
+    font-size: 14px;
+    display: block; }
   .map {
     padding-left: 15px;
     padding-right: 15px; }
