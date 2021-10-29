@@ -20,6 +20,10 @@
         <div id="header">
             <div class="navbar">
                 <div class="res-name">
+                    <button class="menu-btn">
+                        <i class="fas fa-bars icon-menu"></i>
+                        <i class="fas fa-times icon-menu"></i>
+                    </button>
                     <img src="./assets/img/logo2.png" alt="logo" class="logo">
                     <h1><a href="">La Res'phoria</a></h1>
                 </div>
@@ -36,7 +40,7 @@
         </div>
         <!-- end header -->
         <!-- start section -->
-        <div id="section">           
+        <div id="section">
             <div class="map">
                 <h1>Contact us</h1>
                 <iframe
@@ -152,6 +156,23 @@
         </div>
         <!-- end footer -->
     </div>
+
+    <script>
+        const $ = document.querySelector.bind(document)
+        const $$ = document.querySelectorAll.bind(document)
+
+        // const header = $('#header')
+        const menuActive = $('.menu-btn')
+        const icon = $('.icon-menu')
+        const navMenu = $('.nav-menu')
+        const openNav = $('open')
+        // const iconActive = $('.icon-menu.active')
+
+        menuActive.onclick = function() {
+            $('.menu-btn').classList.toggle("active")
+            $('.nav-menu').classList.toggle("open")
+        }
+    </script>
 </body>
 
 </html>

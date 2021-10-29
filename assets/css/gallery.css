@@ -371,7 +371,8 @@ a {
       .list-menu li:hover a {
         text-decoration: none; }
   .list-menu a {
-    font-size: 14px; }
+    font-size: 14px;
+    display: block; }
   #section {
     padding-top: 180px; }
   .tab-list {

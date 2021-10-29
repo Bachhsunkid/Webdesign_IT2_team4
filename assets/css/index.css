@@ -17,9 +17,18 @@
     display: flex;
     padding-top: 25px;
     padding-bottom: 20px;
-    background: rgba(39, 39, 39, 0.7);
+    background: rgba(39, 39, 39, 0.8);
     justify-content: space-around;
-
+}
+.nav-bar {
+    display: flex;
+    padding-top: 49px;
+    padding-bottom: 49px;
+    background: rgba(39, 39, 39, 0.6);
+    justify-content: space-around;
+    position: absolute;
+    z-index: 100;
+    width: 100%;
 }
   
 .res-name {
@@ -54,6 +63,7 @@
     text-transform: uppercase;
     font-weight: 500;
     line-height: 50px; 
+    margin-bottom: 0;
 }
 .list-menu li {
     margin: 0 20px; 
@@ -66,8 +76,10 @@
 }
 
 @media (min-width: 740px) and (max-width: 1023px) {
-    .navbar {
+    .nav-bar {
       flex-direction: column; 
+      position: initial;
+      background: rgba(39, 39, 39, 1);
     }
     .res-name, .list-menu {
       justify-content: center; 
@@ -78,10 +90,13 @@
 }
 
 @media (max-width: 739px) {
+    button:focus {
+      outline: none
+    }
     .list-menu {
         flex-direction: column;
     }
-    .navbar {
+    .nav-bar {
       padding: 0;
       flex-direction: column;
       background-color: initial;
@@ -155,6 +170,7 @@
         }
     .list-menu a {
       font-size: 14px; 
+      display: block;
     }
 }
 /*end:  css menu */
