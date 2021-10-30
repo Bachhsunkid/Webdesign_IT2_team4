@@ -198,8 +198,8 @@ body p{
     flex-basis: 20%;
     text-align: center;
 }
-.fas, .far{
-    color: red;
+.icon{
+    color: #f44029;
     font-size: 50px;
 }
 .note{
