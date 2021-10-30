@@ -502,11 +502,11 @@ body{
   transition: all 0.2s ease-in;
 }
 .cate_btn:hover {
-  color: var(--orange-color);   
+  color: var(--orange);   
   font-weight: 500;
 }
 .cate_btn:hover::before {
-  color: var(--orange-color);   
+  color: var(--orange);   
   left: 3px;
 }
 .cate{
