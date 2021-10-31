@@ -32,15 +32,15 @@
 }
   
 .res-name {
-    display: flex;
-}
-.res-name h1 {
+  display: flex; }
+  .res-name h1 {
     font-size: 50px;
-    font-family: 'Cabin', sans-serif;
+    font-family: 'Parisienne', cursive;
     letter-spacing: 2px;
     line-height: 50px;
-    margin-left: 5px; 
-}
+    margin-left: 5px;
+    font-weight: bold;
+  }
   
 .menu-btn {
     width: 48px;
