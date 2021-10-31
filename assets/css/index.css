@@ -383,7 +383,6 @@ body{
 .events{
   margin-bottom: 100px;
   padding-top: 30px;
-  display: flex;
 }
 .event_new{
   text-align: center;
