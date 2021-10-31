@@ -36,7 +36,7 @@
 }
 .res-name h1 {
     font-size: 50px;
-    font-family: 'Parisienne', cursive;
+    font-family: 'Cabin', sans-serif;
     letter-spacing: 2px;
     line-height: 50px;
     margin-left: 5px; 
@@ -74,7 +74,11 @@
 .list-menu a:hover {
     text-decoration: underline; 
 }
-
+.welcome_content-right{
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+}
 @media (min-width: 740px) and (max-width: 1023px) {
     .nav-bar {
       flex-direction: column; 
@@ -176,7 +180,7 @@
 /*end:  css menu */
 /*start: banner*/
 body{
-  font-family: 'Merienda';font-size: 15px;
+  font-family: 'Cabin', sans-serif;
 }
 .nav-item{
  padding-right: 12px;
@@ -296,6 +300,7 @@ body{
 }
 
 .featured_menu{
+  
   background-attachment: fixed;
   margin-top: 20px;
   background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../../assets/img/1.jpg); 
@@ -375,16 +380,6 @@ body{
   font-weight: 800;
   font-size: 18px;
 }
-/* .cate_btn::before {
-  font-family: "Font Awesome 5 Free"; 
-  font-weight: 900; 
-  content: "\f0a9";
-  float: right;
-  padding-left: 9px;
-  position: relative;
-  transition: 0.3s all ease;
-  left: 0;
-} */
 
 .events{
   margin-bottom: 100px;
@@ -392,7 +387,7 @@ body{
   display: flex;
 }
 .event_new{
-  flex-basis: 25%;
+  text-align: center;
 }
 .event_new h1{
   font-size: 35px;
@@ -488,12 +483,19 @@ body{
   .event_new h1{
       color: #333;
   }
+  .event_content{
+    width: 280px;
+  }
 }
 @media (min-width: 1240px){
   .events{
       margin-left: auto;
       margin-right: auto;
       width: 1200px;
+
+  }
+  .event_content{
+    width: 280px;
   }
   .event_new h1{
       margin-left: 25px;
