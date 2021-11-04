@@ -16,7 +16,7 @@ body p{
   .res-name a, .list-menu a {
     color: #fff; }
   
-  .navbar {
+  .nav-bar {
     display: flex;
     padding-top: 53px;
     padding-bottom: 53px;
@@ -24,7 +24,9 @@ body p{
     justify-content: space-around; }
   
   .res-name {
-    display: flex; }
+    display: flex; 
+    height: 50px;
+  }
     .res-name h1 {
       letter-spacing: 2px;
       line-height: 50px;
@@ -263,7 +265,7 @@ body p{
     .list-icon li {
         margin: 0 5px; 
     }
-    .navbar{
+    .nav-bar{
         flex-direction: column; }
       .res-name, .list-menu {
         justify-content: center; }
@@ -306,7 +308,7 @@ body p{
         overflow: hidden;
         margin-bottom: 100px;
     }
-      .navbar {
+      .nav-bar {
         padding: 0;
         flex-direction: column;
         background-color: initial;

@@ -13,7 +13,7 @@
   .res-name a, .list-menu a {
     color: #fff; }
   
-  .navbar {
+  .nav-bar {
     display: flex;
     padding-top: 53px;
     padding-bottom: 53px;
@@ -21,7 +21,9 @@
     justify-content: space-around; }
   
   .res-name {
-    display: flex; }
+    display: flex; 
+    height: 50px;
+  }
     .res-name h1 {
       font-size: 50px;
       font-family: 'Parisienne', cursive;
@@ -213,7 +215,7 @@
         overflow: hidden;
         margin-bottom: 100px;
     }
-      .navbar {
+      .nav-bar {
         padding: 0;
         flex-direction: column;
         background-color: initial;
