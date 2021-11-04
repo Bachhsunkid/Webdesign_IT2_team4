@@ -27,8 +27,14 @@
       font-family: 'Parisienne', cursive;
       letter-spacing: 2px;
       line-height: 50px;
-      margin-left: 5px; }
+      margin-left: 5px; 
+      font-weight: bold;
+    }
   
+    .res-name a{
+      font-family: 'Parisienne', cursive;
+    }
+
   .menu-btn {
     width: 48px;
     height: 48px;
@@ -47,14 +53,17 @@
     display: flex;
     text-transform: uppercase;
     font-weight: 500;
-    line-height: 50px; }
+    line-height: 50px; 
+    margin-bottom: 0;
+  }
     .list-menu li {
       margin: 0 20px; }
     .list-menu a {
       font-size: 16px; }
       .list-menu a:hover {
-        text-decoration: underline; }
-
+        text-decoration: underline; 
+        color: #fff;
+      }
 
 /* DESSERTS+ dinner menu */
 .description{
@@ -124,8 +133,13 @@
     position: relative;
     width: 100%;
 }
+/* 
+.wine_name {
+  position: relative;
+} */
+
 .wine_name::after{
-    content: '.........................................................';
+    content: '....................';
     position: absolute;
     letter-spacing: 9px;
     width: 100%;
@@ -183,10 +197,6 @@
     transition: 0.3s;
 }
 .caption a:hover{
-    color: red;
-}
-
-.list-menu a:hover{
     color: red;
 }
 

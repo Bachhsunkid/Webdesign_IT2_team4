@@ -26,12 +26,16 @@ body p{
   .res-name {
     display: flex; }
     .res-name h1 {
-      font-size: 50px;
-      font-family: 'Parisienne', cursive;
       letter-spacing: 2px;
       line-height: 50px;
-      margin-left: 5px; }
-  
+      font-size: 50px;
+      margin-left: 5px; 
+      font-weight: bold;
+    }
+
+  .res-name a{
+    font-family: 'Parisienne', cursive;
+  }
   .menu-btn {
     width: 48px;
     height: 48px;
@@ -50,13 +54,16 @@ body p{
     display: flex;
     text-transform: uppercase;
     font-weight: 500;
-    line-height: 50px; }
+    line-height: 50px; 
+    margin-bottom: 0;}
     .list-menu li {
       margin: 0 20px; }
     .list-menu a {
       font-size: 16px; }
       .list-menu a:hover {
-        text-decoration: underline; }
+        text-decoration: underline; 
+        color: #fff;
+      }
   
 /* ============================part 1============================= */
 .content_container{

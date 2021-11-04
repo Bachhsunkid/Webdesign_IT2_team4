@@ -451,7 +451,7 @@ body{
 
 @media (min-width: 976px) and (max-width: 1023px){
   .categories .wide{
-      width: 860px;
+      /* width: 860px; */
   }
 
 }
@@ -460,7 +460,7 @@ body{
       display: block;
   }
   .event_new{
-      width: 644px;
+      /* width: 644px; */
       margin: 0 auto;
       text-align: left;
   }
@@ -474,7 +474,7 @@ body{
       display: block;
   }
   .event_new{
-      width: 984px;
+      /* width: 984px; */
       margin: 0 auto;
       text-align: left;
   }
