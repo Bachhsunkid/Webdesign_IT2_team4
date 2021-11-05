@@ -391,16 +391,17 @@ body{
 }
 .event_new h1{
   font-size: 35px;
-  color: var(--orange-color);
-  font-weight: 800;
+  color: rgb(255, 44, 44);
+  font-weight: 600;
 }
+
 .event_day{
   margin-top: 20px;
 }
 .event_day h2{
   font-size: 25px;
-  color: var(--orange-color);
-  font-weight: 700;
+  color: rgb(255, 44, 44);
+  font-weight: 600;
 }
 .event_title{
   margin-top: 15px;
@@ -420,6 +421,7 @@ body{
 .event_content p{
   color: #333;
   font-style: italic;
+  opacity: 0.7;
 }
 .event_btn{
   display: inline-block;
