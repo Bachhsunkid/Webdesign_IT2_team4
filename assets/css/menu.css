@@ -207,7 +207,34 @@
 }
 .thumbnail{
     margin: 0 auto;
+    animation-name: fadeInUp;
+    visibility: visible;
+    animation-fill-mode: both;
+    animation-duration: 1.75s;
 }
+
+@keyframes fadeInUp {
+    0% {
+      opacity: 0;
+      transform: translate3d(0, 100%, 0);
+    }
+    100% {
+      opacity: 1;
+      transform: none; 
+    }
+}
+
+@media (min-width: 740px) and (max-width: 1023px) {
+  .nav-bar, .container-footer {
+    flex-direction: column; }
+  .res-name, .list-menu {
+    justify-content: center; }
+  .nav-menu {
+    padding-top: 20px; }
+  .list-icon li {
+    margin: 0 5px; }
+}
+
 
 @media (max-width: 739px) {
     #header {
