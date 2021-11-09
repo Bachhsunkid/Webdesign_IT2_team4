@@ -86,7 +86,7 @@
                         <label for="" class="message">
                             <textarea name="message" id="" placeholder="* Your comments & questions"></textarea>
                         </label>
-                        <button class="submit-btn" type="submit">
+                        <button class="submit-btn" type="submit" onclick="displayresult();">
                             <span>Submit</span>
                         </button>
                     </form>
@@ -171,6 +171,27 @@
         menuActive.onclick = function() {
             $('.menu-btn').classList.toggle("active")
             $('.nav-menu').classList.toggle("open")
+        
+        }
+        function displayresult(){
+			var arr = document.getElementsByTagName('input');
+            var  name = arr[0].value;
+            var email = arr[1].value;
+            var telephone = arr[2].value;
+
+            if(name ==""){
+                alert('Vui lòng nhập fullname ');
+            return;
+            }
+            if(email==""){
+                 alert('Vui lòng nhập email ');
+            return;
+            }
+            if(telephone==""){
+                 alert('Vui lòng nhập telepone  ');
+            return;
+            }
+             
         }
     </script>
 </body>
