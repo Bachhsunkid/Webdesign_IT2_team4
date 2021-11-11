@@ -21,11 +21,12 @@ body p{
     padding-top: 53px;
     padding-bottom: 53px;
     background: rgba(39, 39, 39, 0.48);
-    justify-content: space-around; }
+    justify-content: space-around;
+    align-items: center; 
+  }
   
   .res-name {
     display: flex; 
-    height: 50px;
   }
     .res-name h1 {
       letter-spacing: 2px;

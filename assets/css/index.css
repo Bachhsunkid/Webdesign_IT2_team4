@@ -29,11 +29,11 @@
     position: absolute;
     z-index: 100;
     width: 100%;
+    align-items: center; 
 }
   
 .res-name {
   display: flex; 
-  height: 50px;
 }
   .res-name h1 {
     font-size: 50px;
@@ -518,12 +518,6 @@ body{
   opacity: 1;
 }
 
-.event_btn:hover{
-  background-color: var(--orange-color);
-  transition: all 0.2s ease-in;
-  border-color: var(--orange-color);
-}
-
 .event_btn:hover a{
   color: #fff;
   transition: all 0.2s ease-in;
@@ -532,6 +526,7 @@ body{
 .event_btn:hover{
   background-color:#F4412A ;
   transition: all 0.2s ease-in;
+  border-color: #f4412A;
 }
 .cate_btn:hover {
   color: var(--orange);   
