@@ -45,7 +45,8 @@
     outline: none;
     border-color: transparent;
     color: #fff;
-    display: none; }
+    display: none; 
+  }
   
   .logo {
     width: 50px;
@@ -214,6 +215,10 @@
     visibility: visible;
     animation-fill-mode: both;
     animation-duration: 1.75s;
+}
+
+button:focus {
+  outline: none;
 }
 
 @keyframes fadeInUp {
