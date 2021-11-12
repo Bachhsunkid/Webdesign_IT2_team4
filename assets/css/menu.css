@@ -186,6 +186,7 @@
 .caption a{
     font-size: 1.5em;
     color: #fff;
+    cursor: initial;
 }
 .caption p{
     color: #fff;
@@ -201,6 +202,7 @@
 }
 .caption a:hover{
     color: red;
+    text-decoration: none;
 }
 
 .dishes_container{

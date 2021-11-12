@@ -129,6 +129,7 @@ body p{
     color: #333;
     font-size: 12px;
     font-weight: bold;
+    cursor: initial;
 }
 
 /* ============================part 2============================= */
@@ -231,6 +232,7 @@ body p{
     color: #333;
     font-size: 12px;
     font-weight: bold;
+    cursor: initial;
 }
 
 .comment{
@@ -250,8 +252,9 @@ body p{
     display: flex;
 }
 
-
-
+#footer p {
+  line-height: initial;
+}
 
 @media (min-width: 1240px){
 

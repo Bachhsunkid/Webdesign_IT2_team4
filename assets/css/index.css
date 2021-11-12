@@ -417,6 +417,7 @@ body{
 }
 .event_content{
   margin-top: 10px;
+  margin-bottom: 50px;
 }
 .event_content p{
   color: #333;
@@ -425,15 +426,14 @@ body{
 }
 .event_btn{
   display: inline-block;
-  padding: 15px 20px;
-  border: 1px rgb(172, 172, 172) solid;
-  margin-top: 50px;
-  cursor: pointer;
 }
 .event_btn a{
   text-decoration: none;
   font-weight: 600;
   color: #333;
+  padding: 15px 20px;
+  border: 1px rgb(172, 172, 172) solid;
+  display: block;
 }
 
 
@@ -521,12 +521,11 @@ body{
 .event_btn:hover a{
   color: #fff;
   transition: all 0.2s ease-in;
-  
+  border-color: #f4412A;
 }
 .event_btn:hover{
   background-color:#F4412A ;
   transition: all 0.2s ease-in;
-  border-color: #f4412A;
 }
 .cate_btn:hover {
   color: var(--orange);   
