@@ -205,7 +205,9 @@
     color: red;
     text-decoration: none;
 }
-
+#header h1 a:hover {
+    text-decoration: none;
+}
 .dishes_container{
     justify-content: center;
 }
