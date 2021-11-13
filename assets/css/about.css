@@ -129,7 +129,7 @@ body p{
     color: #333;
     font-size: 12px;
     font-weight: bold;
-    cursor: initial;
+    cursor: pointer;
 }
 
 /* ============================part 2============================= */
@@ -232,7 +232,7 @@ body p{
     color: #333;
     font-size: 12px;
     font-weight: bold;
-    cursor: initial;
+    cursor: pointer;
 }
 
 .comment{
