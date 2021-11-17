@@ -86,7 +86,7 @@
                         <label for="" class="message">
                             <textarea name="message" id="" placeholder="* Your comments & questions"></textarea>
                         </label>
-                        <button class="submit-btn" type="submit" onclick="displayresult();">
+                        <button class="submit-btn" type="submit" onclick="displayresult()">
                             <span>Submit</span>
                         </button>
                     </form>
@@ -172,25 +172,26 @@
         
         }
         function displayresult(){
-			var arr = document.getElementsByTagName('input');
-            var  name = arr[0].value;
-            var email = arr[1].value;
-            var telephone = arr[2].value;
+            const name = document.forms[0]["name"].value;
+            const email = document.forms[0]["email"].value;
+            const cp = document.forms[0]["message"].value;
 
-            if(name ==""){
+            if(name === " "){
                 alert('Vui lòng nhập fullname ');
-            return;
+                return;
             }
-            if(email==""){
+            if(email === " "){
                  alert('Vui lòng nhập email ');
             return;
             }
-            if(telephone==""){
-                 alert('Vui lòng nhập telepone  ');
-            return;
+            if( cp ==="") {
+                alert("Vui lòng nhập phản hồi của bạn");
+                return;
+            }
+
+            alert("Gửi phản hồi thành công");
             }
              
-        }
     </script>
 </body>
 
